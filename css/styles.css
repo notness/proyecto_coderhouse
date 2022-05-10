@@ -66,12 +66,19 @@
         display: inline-block;
     }
     
-    footer {
+    footer{
         background-color: #99EDCC;
         grid-area: footer;
         display: inline-block;
     }
     
+    footer ul{
+        background-color: #99EDCC;
+        text-align: center;
+        display: inline-block;
+        /* overflow: hidden; */
+    }
+
     footer ul li{
         background-color: #99EDCC;
         text-align: center;
