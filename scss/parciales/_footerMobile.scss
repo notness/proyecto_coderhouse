@@ -1,0 +1,46 @@
+
+
+footer{
+    background-color: #99EDCC;
+    display: inline-block;
+
+    img{
+        width: 75px;
+        height: 75px;
+        margin: 10px;
+        display: block;
+        text-align: center;
+    }
+
+    ul{
+        background-color: #99EDCC;
+        text-align: center;
+        /* overflow: hidden; */
+        li{
+            display: inline-block;
+        }
+    }
+
+    h2{
+        text-align: center;
+    }
+}
+
+a {
+    display: block;
+    text-decoration: underline;
+    color: #99EDCC;
+    text-align: center;
+}
+
+.primeraRed{
+    --animate-duration: 1s;
+}
+
+.segundaRed{
+    --animate-duration: 2s;
+}
+
+.terceraRed{
+    --animate-duration: 3s;
+}

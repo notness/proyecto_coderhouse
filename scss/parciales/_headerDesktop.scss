@@ -1,0 +1,61 @@
+.logo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+    background-color: #742306;
+    overflow:hidden;
+}
+
+ul {
+    background-color: #742306;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    padding: 10px;
+    list-style-type: none;
+    position: relative;
+    top: 20px;
+    overflow:hidden;
+} 
+
+div{
+    ul{
+        li{
+            a{
+                display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            overflow: hidden;
+            }
+        }
+    }
+}
+
+li a:hover {
+    background-color: #AE3509;
+    color: white;
+}
+
+div.navIzq{
+    grid-area: navIzq;
+    background-color: #742306;
+}  
+
+div.navDer{
+    grid-area: navDer;
+    background-color: #742306;
+}
+
+.navIzq ul, .navDer ul{
+    display: flex;
+    justify-content: space-around;
+}

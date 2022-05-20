@@ -1,0 +1,43 @@
+footer{
+    background-color: #99EDCC;
+    grid-area: footer;
+    display: inline-block;
+    text-align: center;
+
+    ul{
+        background-color: #99EDCC;
+        text-align: center;
+        display: inline-block;
+        /* overflow: hidden; */
+        li{
+            background-color: #99EDCC;
+            text-align: center;
+            display: inline-block;
+            /* overflow: hidden; */
+        }
+    }
+
+    img {
+        width: 75px;
+        height: 75px;
+        margin: 10px;
+        display: block;
+    }
+
+}
+
+div.footer {
+    grid-area: footer;
+}
+
+.primeraRed{
+    --animate-duration: 1s;
+}
+
+.segundaRed{
+    --animate-duration: 2s;
+}
+
+.terceraRed{
+    --animate-duration: 3s;
+}

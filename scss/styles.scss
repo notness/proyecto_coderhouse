@@ -1,0 +1,28 @@
+
+@import "parciales/_global.scss";
+
+@media screen and (max-width: 576px) {
+
+    @import "parciales/_headerMobile.scss";
+    @import "parciales/_mainMobile.scss";
+    @import "parciales/_footerMobile.scss";
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    @import "parciales/_headerTablet.scss";
+    @import "parciales/_mainTablet.scss";
+    @import "parciales/_footerTablet.scss";
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+    @import "parciales/_grid.scss";
+    @import "parciales/_headerDesktop.scss";
+    @import "parciales/_mainDesktop.scss";
+    @import "parciales/_footerDesktop.scss";
+
+}
